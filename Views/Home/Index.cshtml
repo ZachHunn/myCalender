@@ -3,7 +3,9 @@
 }
 
 @section Styles{
+<link rel="stylesheet" href="/lib/fontawesome-free-5.14.0-web/css/all.css">
 <link rel="stylesheet" href="/css/todo.css">
+
 }
 
 <div class="parent-container">
@@ -12,7 +14,10 @@
     </div>
     
     <div class="content">
-        Content
+        <h4>My Tasks</h4>
+        <div id="tasks" class="section-tasks">
+
+        </div>
     </div>
     
     <div class="details">
@@ -20,4 +25,7 @@
     </div>
 </div>
 
-
+@section Scripts{
+    <script src="/js/calendar.js"></script>
+    
+}
